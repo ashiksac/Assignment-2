@@ -113,7 +113,7 @@ span {
 }
 
 #header .content .heading-content {
-    flex: 4;
+    width: 50%;
 }
 
 #header .content .heading-content h3 {
@@ -140,7 +140,7 @@ span {
 #header .content .button-content {
     display: flex;
     margin-top: 28px;
-    gap: 14px;
+    gap: 10px;
 }
 
 #header .content .fst-button a {
@@ -172,7 +172,7 @@ span {
 }
 
 #header .content .image {
-    flex: 5;
+    width: 50%;
     position: relative;
     text-align: center;
 }
