@@ -448,20 +448,23 @@ header .content .left-img-content .fa-solid {
     .button-content {
         width: 100%;
     }
+
     #first-sec .img {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
 
-}
-#second-sec .container{
-    margin: 0px 40px;
-}
-#second-sec .content{
-    display: flex;
-    flex-direction: row;
-    width: calc(100% - 60px);
-}
+    }
+
+    #second-sec .container {
+        margin: 0px 40px;
+    }
+
+    #second-sec .content {
+        display: flex;
+        flex-direction: row;
+        width: calc(100% - 60px);
+    }
 }
 
 
@@ -494,35 +497,95 @@ header .content .left-img-content .fa-solid {
     .navbar {
         margin: 0px 20px;
     }
+
+    span {
+        font-size: 5rem;
+    }
+
+    #header .content .heading-content {
+        width: 100%;
+    }
+
+
+    #header .content .heading-content h3 {
+        font-size: 2.2rem;
+    }
+
+    #header .content .fst-button a {
+        padding: 16px 20px;
+        font-size: 0.8rem;
+    }
+
+    #header .content .second-button a {
+        padding: 16px 20px;
+        font-size: 0.8rem;
+    }
+
     #first-sec .heading {
         display: flex;
         align-items: center;
-     }
-     #first-sec .heading .title{
+    }
+
+    #first-sec .heading .title {
         font-size: 2rem;
-     }
+    }
 
     #first-sec .img {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 36px;
     }
-    #second-sec .content{
+
+    #second-sec .content {
         display: flex;
         flex-direction: column;
         width: calc(100% - 60px);
     }
-    #second-sec .content h3{
+
+    #second-sec .content h3 {
         font-size: 2rem;
     }
-    #second-sec .heading{
+
+    #second-sec .heading {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         margin: 0px auto;
     }
-    #second-sec .heading button a{
-        padding: 16px 140px;
+
+    #second-sec .heading button a {
+        padding: 10px 0px;
     }
+
+    .join-btn {
+        width: 100%;
+        background-color: azure;
+        text-align: center;
+        padding: 16px 0px;
+        border-radius: 42px;
+
+        background: rgb(230, 83, 60);
+    }
+    #header .content .right-img-content {
+        position: absolute;
+        top: 10%;
+        right: -95%;
+        padding: 4px 10px;
+
+}
+#header .content .right-img-content h3{
+    font-size: 1.4rem;
+}
+#header .content .right-img-content p {
+    font-size: 0.5rem;
+}
+#header .content .left-img-content {
+    bottom: 29%;
+    padding: 4px 10px ;
+}
+#header .content .left-img-content h3 {
+    font-size: 1.1rem;
+}
+
 }
