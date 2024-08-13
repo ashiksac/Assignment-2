@@ -24,7 +24,6 @@ body {
 
 #header {
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-    margin-bottom: 100px;
 }
 
 #header .navbar {
@@ -108,7 +107,7 @@ span {
     display: flex;
     justify-content: space-between;
     margin-top: 96px;
-    gap: 20px;
+    gap: 30px;
 
 }
 
@@ -266,7 +265,9 @@ header .content .left-img-content .fa-solid {
 
 /* header section css end */
 
-
+#first-sec {
+    margin-top: 100px;
+}
 
 #first-sec .heading {
     display: flex;
@@ -365,8 +366,9 @@ header .content .left-img-content .fa-solid {
 #second-sec .heading {
     flex: 1;
     margin-right: 90px;
-    
+
 }
+
 #second-sec .heading h3 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
@@ -414,14 +416,23 @@ header .content .left-img-content .fa-solid {
 
 #second-sec .image img {
     width: 100%;
-    transform: translate(-35%,50%) scale(3);
+    transform: translate(-35%, 50%) scale(3);
 }
 
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
+    .container {
+        margin: 0px 40px;
+    }
+
     .content {
         display: flex;
         flex-direction: column;
+        width: 100%;
+    }
+
+    .content .image {
+        margin: 0px auto;
     }
 
     #header .menu ul a {
@@ -434,17 +445,36 @@ header .content .left-img-content .fa-solid {
         margin: 0px 20px;
     }
 
-    .content {
-        margin: 0px 40px;
+    .button-content {
+        width: 100%;
     }
+    #first-sec .img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
 
 }
+#second-sec .container{
+    margin: 0px 40px;
+}
+#second-sec .content{
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 60px);
+}
+}
+
 
 @media screen and (max-width:576px) {
+    .container {
+        margin: 0px 20px;
+    }
 
     .content {
         display: flex;
         flex-direction: column;
+        width: 100%;
+
     }
 
     .navbar .sidebar {
@@ -464,12 +494,35 @@ header .content .left-img-content .fa-solid {
     .navbar {
         margin: 0px 20px;
     }
+    #first-sec .heading {
+        display: flex;
+        align-items: center;
+     }
+     #first-sec .heading .title{
+        font-size: 2rem;
+     }
 
-    .content {
-        margin: 0px 40px;
+    #first-sec .img {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 36px;
     }
-
-    #header {
-        background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    #second-sec .content{
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 60px);
+    }
+    #second-sec .content h3{
+        font-size: 2rem;
+    }
+    #second-sec .heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px auto;
+    }
+    #second-sec .heading button a{
+        padding: 16px 140px;
     }
 }
