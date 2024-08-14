@@ -913,6 +913,111 @@ select {
     border-radius: 18px;
 }
 
+/* sixth sec css end */
+
+
+#footer {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 90px 0px;
+}
+
+#footer .content {
+    display: flex;
+}
+
+#footer .content .fitness {
+    width: 50%;
+    margin-right: 100px;
+    margin-top: 66px;
+}
+
+#footer .content .fitness h1 {
+    color: rgb(230, 83, 60);
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#footer .content .fitness p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+
+#footer .content .about {
+    width: 25%;
+    margin-right: 150px;
+    margin-top: 66px;
+}
+
+#footer .content .about h4 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 39px;
+}
+
+#footer .content .about p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#footer .content .app {
+    width: 25%;
+    margin-top: 66px;
+}
+
+#footer .content .app h4 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 39px;
+}
+
+#footer .content .app p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#footer .footer-down{
+    border-top:2px solid rgba(255, 255, 255, 0.1);
+
+    height: 1px;
+    
+}
+#footer .footer-down p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    padding: 20px 0px;
+   
+
+}
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .container {
@@ -1180,11 +1285,33 @@ select {
         margin: 0px 20px;
     }
 
-    #sixth-section .image-content{
+    #sixth-section .image-content {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-    #sixth-section .heading-content h3{
+
+    #sixth-section .heading-content h3 {
         font-size: 2rem;
+    }
+
+    #footer .content .fitness{
+        width: 100%;
+    }
+    #footer .content .about {
+        width: 100%;
+    }
+    #footer .content .about h4{
+        font-size: 1rem;
+    }
+    #footer .content .app {
+        width: 100%;
+    }
+
+    #footer .content .app h4{
+        font-size: 1rem;
+    }
+
+    #footer .footer-down p{
+        text-align: left;
     }
 }
