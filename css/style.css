@@ -183,7 +183,6 @@ span {
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     padding: 17px 24px;
@@ -197,7 +196,6 @@ span {
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
     display: flex;
@@ -625,8 +623,10 @@ header .content .left-img-content .fa-solid {
 
 #fifth-section {
     background: rgb(34, 34, 34);
-    margin-bottom: 80px;
     padding: 50px 0px;
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 80px;
 }
 
 #fifth-section .container {
@@ -917,14 +917,16 @@ select {
 
 #challenges-section {
     background: rgba(255, 255, 255, 0.1);
+    max-width: 1440px;
+    margin: auto;
     margin-bottom: 80px;
-    border-radius: 40px;
 }
 
 #challenges-section .container {
     display: flex;
+    justify-content: space-between;
     padding: 30px;
-    gap: 30px;
+    gap: 50px;
 }
 
 #challenges-section .container .heading-content {
@@ -997,7 +999,7 @@ select {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.2);
     padding: 17px 24px;
     text-align: left;
 
@@ -1029,6 +1031,8 @@ select {
 #footer {
     background: rgba(255, 255, 255, 0.1);
     padding: 90px 0px;
+    max-width: 1440px;
+    margin: auto;
 }
 
 #footer .content {
